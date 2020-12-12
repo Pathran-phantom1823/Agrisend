@@ -1,5 +1,7 @@
 rootProject.name = 'Agrisend'
-include ':react-native-zebra-rfid'
-project(':react-native-zebra-rfid').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-zebra-rfid/android')
+// include ':react-native-react-native-rpan-nfc-agri'
+// project(':react-native-react-native-rpan-nfc-agri').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-react-native-rpan-nfc-agri/android')
+// include ':react-native-zebra-rfid'
+// project(':react-native-zebra-rfid').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-zebra-rfid/android')
 apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
 include ':app'

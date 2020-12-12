@@ -30,6 +30,7 @@ allprojects {
             url("$rootDir/../node_modules/jsc-android/dist")
         }
         flatDir { dirs "$rootDir/../node_modules/react-native-zebra-rfid/android/libs" }
+        // flatDir { dirs "$rootDir/../node_modules/react-native-react-native-rpan-nfc-agri/android/lib" }
 
         google()
         jcenter()

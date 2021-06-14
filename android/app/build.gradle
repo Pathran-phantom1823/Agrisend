@@ -132,8 +132,8 @@ android {
         applicationId "com.agrisend"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 11
-        versionName "10.1"
+        versionCode 12
+        versionName "10.2"
         multiDexEnabled true
     }
     splits {
